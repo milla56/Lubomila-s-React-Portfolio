@@ -3,11 +3,23 @@ import { Container,FormControl,Label } from "react-bootstrap";
 
 
 const Contact = () => {
+  const [formStatus, setFormStatus] = React.useState('Send')
+  const onSubmit = (e) => {
+    e.preventDefault()
+    setFormStatus('Submitting...')
+    const { name, email, message } = e.target.elements
+    let conFom = {
+      name: name.value,
+      email: email.value,
+      message: message.value,
+    }
+    console.log(conFom)
+  }
   return (
     <div className="Contact">
 <Container> 
 <h2 className="mb-3">Send A Message</h2>
-    <form>
+    <form onSubmit={onSubmit}>
       <div className="mb-3">
         <label className="form-label" htmlFor="name">
           Name
@@ -28,7 +40,7 @@ const Contact = () => {
       </div>
 
       <button className="btn btn-primary" type="submit">
-       
+      {formStatus}
       </button>
     </form>
 </Container>
