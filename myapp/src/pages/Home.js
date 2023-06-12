@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from "../components/Navbar"
+import NavbarMenu from '../components/NavbarMenu'
 
 import newlogo from "../images/newlogo.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
