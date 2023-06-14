@@ -8,7 +8,7 @@ import EmailIcon from '@mui/icons-material/Email';
 const Footer = () => {
  return (
 	<div className="footer">
-		<div> 
+		<div className="socialMedia"> 
 			<GitHubIcon />
 			<LinkedInIcon />
 			<EmailIcon />
