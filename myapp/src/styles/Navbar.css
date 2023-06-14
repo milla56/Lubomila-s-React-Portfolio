@@ -40,3 +40,17 @@
   cursor: pointer;
 }
 
+#open {
+  height: 100vh;
+}
+
+#open .links{
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 100px;
+}
+
+#open a {
+  width: 100%;
+  text-align: center;
+}

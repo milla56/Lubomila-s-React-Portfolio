@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from "react-router-dom";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -9,7 +9,7 @@ const NavbarMenu = () => {
 	const [exandNavbarMenu, setExpandNavbarMenu] = useState(false);
 
   return (
-	<Navbar bg="dark" variant="dark">
+	<Navbar id={exandNavbarMenu ? "open" : "close"}>
 	<Container>
 	  <Navbar.Brand> Mila's Portfolio</Navbar.Brand>
 	  <img
