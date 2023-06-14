@@ -1,5 +1,5 @@
 import React from 'react';
-import NavbarMenu from '../components/NavbarMenu'
+import "../styles/home.css";
 
 import newlogo from "../images/newlogo.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -19,7 +19,7 @@ const Home = () => {
     <h1>Hello, I am Mila</h1>
     <h2>Front End Web Developer</h2>
     <p>Feel free to explore and learn more about me!</p>
-    <div className="homepage-socials">
+    <div className="homepaSocials">
 					
 							<a
 								href="https://github.com/milla56"
