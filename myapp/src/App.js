@@ -8,6 +8,7 @@ import Contact from './pages/Contact'
 import Projects from './pages/Projects'
 import NavbarMenu from './components/NavbarMenu';
 import Footer from './components/Footer'
+import ProjectView from './components/ProjectView'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="about" element={<About />} />
       <Route path="projects" element={<Projects />} />
+      <Route path="project/:id" element={<ProjectView />} />
       <Route path="contact" element={<Contact />} />
       </Routes>
       <Footer />

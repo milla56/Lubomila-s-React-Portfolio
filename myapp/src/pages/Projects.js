@@ -9,8 +9,9 @@ const Projects = () => {
     <div className="projects">
       <h1> My Personal Projects !</h1>
       <div className='projectList'>
-        {ProjectObjects.map ((project) => {
+        {ProjectObjects.map ((project, idx) => {
           return <ProjectCard 
+          id ={idx}
           name = {project.name} 
           image = {project.image}
           skills = {project.skills}/>
