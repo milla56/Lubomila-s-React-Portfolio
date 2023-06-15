@@ -4,7 +4,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import MenuIcon from "@mui/icons-material/Menu";
 import "../styles/Navbar.css";
 
-// import newlogo from "../images/newlogo.png";
+
 
 const NavbarMenu = () => {
 	const [exandNavbarMenu, setExpandNavbarMenu] = useState(false);
@@ -14,11 +14,8 @@ const NavbarMenu = () => {
 	<Navbar id={exandNavbarMenu ? "open" : "close"}>
 	<Container>
 	  <Navbar.Brand> <h5> Mila's Portfolio</h5> </Navbar.Brand>
-	  {/* <img
-		  src={newlogo}
-		  alt="logo"
-		  style={{ maxWidth: "40px" }}
-		/> */}
+	 
+	
 
 		{/* // Burger Menu  */}
 	<div className='toggleButton'>

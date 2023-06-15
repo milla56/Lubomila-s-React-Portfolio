@@ -12,14 +12,16 @@ const Home = () => {
   return (
     <div className = "home">
 		<div className='jumbotron'> 
-       <img
+		<h1>Hello, My Name Is </h1>
+		
+		<div className='title'><img
               src={newlogo}
               alt="logo"
-              style={{ maxWidth: "40px" }}
-            />
-    <h1>Hello, I am Mila</h1>
+			  className='mylogo'
+            />ila</div>
+		
     <h2>Front End Web Developer</h2>
-    <p>Welcome To My Portfolio ! </p>
+    {/* <h3>Welcome To My Portfolio ! </h3> */}
     <div className="homepaSocials">
 					
 							<a
