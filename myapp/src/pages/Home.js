@@ -11,6 +11,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 const Home = () => {
   return (
     <div className = "home">
+		<div className='jumbotron'> 
        <img
               src={newlogo}
               alt="logo"
@@ -52,7 +53,7 @@ const Home = () => {
 							</a>
 						
 						</div>
-
+						</div>
   </div>
   );
 }

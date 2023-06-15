@@ -18,7 +18,7 @@
 }
 
 .navbar-brand h5{
-  font-size: 18px;
+  font-size: 20px;
   text-align: left;
   color: var(--pastel);
   margin-left: -60%;
@@ -38,7 +38,7 @@
   color: var(--text2);
   text-decoration: none;
   margin: 20px;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .navbar a::after a::before{ 
@@ -46,6 +46,7 @@
 }
 
 .navbar a:hover {
+  transform: scale(1.5); 
   color: var(--hotpink);
 }
 

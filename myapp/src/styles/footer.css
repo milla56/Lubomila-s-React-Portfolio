@@ -1,22 +1,44 @@
+
+:root {
+  --text: #DCCAE9;
+  --softpurple: #A6A9C8;
+  --text2: #D3D9E9;
+  --dark: #31293F;
+  --dark2: #272932;
+  --middletone: #554D74;
+  --button: #FFB6C1;
+  --hotpink: 	#FF69B4;
+  --pastel: #F8C8DC;
+}
+
+
+
+
 .footer{
   width: 100%;
-  height: 200px;
-  background: #21325e;
+  height: 120px;
+  background: var(--dark2);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding-top: 10px;
-  margin-top: 200px;
+
 }
 
 .socialMedia svg {
-  color: white;
+  color: var(--pastel);
   margin: 20px;
-  font-size: 70px;
+  font-size: 50px;
   cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+.socialMedia svg:hover{
+  transform: scale(1.5); 
+  color: var(--hotpink);
 }
 
 .footer p {
-  color: white;
+  color: var(--text);
 }
