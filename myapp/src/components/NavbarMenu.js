@@ -7,6 +7,7 @@ import "../styles/Navbar.css";
 
 const NavbarMenu = () => {
 	const [exandNavbarMenu, setExpandNavbarMenu] = useState(false);
+    const[newlogo, setNewlogo] = useState();
 
   return (
 	<Navbar id={exandNavbarMenu ? "open" : "close"}>

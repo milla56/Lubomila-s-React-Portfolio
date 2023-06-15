@@ -1,5 +1,6 @@
 import React from 'react';
-import { Container,FormControl,Label } from "react-bootstrap";
+import Container from 'react-bootstrap/Container';
+import Form from 'react-bootstrap/Form';
 
 
 const Contact = () => {
@@ -15,11 +16,13 @@ const Contact = () => {
     }
     console.log(conFom)
   }
+
+  
   return (
     <div className="Contact">
 <Container> 
 <h2 className="mb-3">Send A Message</h2>
-    <form onSubmit={onSubmit}>
+    <Form onSubmit={onSubmit}>
       <div className="mb-3">
         <label className="form-label" htmlFor="name">
           Name
@@ -42,7 +45,7 @@ const Contact = () => {
       <button className="btn btn-primary" type="submit">
       {formStatus}
       </button>
-    </form>
+    </Form>
 </Container>
     </div>
   );

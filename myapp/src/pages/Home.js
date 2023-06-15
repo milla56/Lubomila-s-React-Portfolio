@@ -18,7 +18,7 @@ const Home = () => {
             />
     <h1>Hello, I am Mila</h1>
     <h2>Front End Web Developer</h2>
-    <p>Feel free to explore and learn more about me!</p>
+    <p>Welcome To My Portfolio ! </p>
     <div className="homepaSocials">
 					
 							<a
