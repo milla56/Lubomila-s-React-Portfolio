@@ -30,7 +30,7 @@ const About = () => {
         <div className="col-lg-7 order-lg-1">
           <div className="p-5">
             <h3 className="knowMe">Get To Know Me</h3>
-            <p>Front End Web Developer experienced in managing multiple websites 
+            <p>Hello, my name is Mila ! I am a Front End Web Developer experienced in managing multiple websites 
                 and web application design projects. 
                 Proficient at developing creative and functional designs, web page layout, 
                 creating user interfaces, writing and testing codes, 
