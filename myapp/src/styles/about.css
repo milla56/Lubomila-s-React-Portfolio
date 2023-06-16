@@ -1,10 +1,116 @@
-.img-fluid{
-  width: 260px;
+:root {
+  --text: #DCCAE9;
+  --softpurple: #A6A9C8;
+  --text2: #D3D9E9;
+  --dark: #31293F;
+  --dark2: #272932;
+  --middletone: #554D74;
+  --button: #FFB6C1;
+  --hotpink: 	#FF69B4;
+  --pastel: #F8C8DC;
+  --lightpink: #faf5f8;
 }
 
+
+.img-fluid{
+  width: 200px;
+  border-radius: 50%;
+  border-right: 4px solid var(--dark2);
+}
+/* TEXT */
+.aboutme h1{
+  color: var(--dark);
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
 p{
   text-align: left;
   font-size: 18px;
+  color: var(--dark);
+  margin-bottom: 15px;
+}
+
+.knowMe{
+  text-align: left;
+  margin-bottom: 25px;
+  color: var(--dark);
+  border-bottom: 1px solid var(--button);
+} 
+
+/* DOWNLOAD ICON */
+.resumeIcon svg{
+  font-size: 40px;
+  color: var(--softpurple);
+  margin-left: -90%;
+
 
 }
 
+.resumeIcon svg:hover{
+  transform: scale(1.5); 
+  color: var(--dark);
+}
+
+.knowMe{
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+
+.info{
+  background-color: var(--lightpink);
+  border-bottom: 2px solid var(--button);
+  height: 100%;
+  width: 100%;
+
+}
+
+/* SKILLS IMAGES */
+.skills-title{
+  color: var(--dark);
+  margin-top: 30px;
+  margin-bottom: 35px;
+  font-size: 45px;
+}
+
+.html{
+  width: 50px;
+  margin-right: 25px;
+  margin-bottom: 30px;
+}
+
+.css{
+  width: 70px;
+  margin-right: 25px;
+  margin-bottom: 30px;
+}
+
+.javascript{
+  width: 50px;
+  margin-right: 25px;
+  margin-bottom: 30px;
+}
+
+.react{
+  width: 50px;
+  margin-right: 25px;
+  margin-bottom: 30px;
+}
+
+.bootstrap{
+  width: 50px;
+  margin-right: 25px;
+  margin-bottom: 30px;
+}
+
+.git{
+  width: 50px;
+  margin-right: 25px;
+  margin-bottom: 30px;
+}
+
+.adobe{
+  width: 50px;
+  margin-right: 25px;
+  margin-bottom: 30px;
+}
