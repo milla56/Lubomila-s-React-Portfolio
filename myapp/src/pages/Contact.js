@@ -2,6 +2,8 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 
+import "../styles/contact.css"
+
 
 const Contact = () => {
   const [formStatus, setFormStatus] = React.useState('Send')
@@ -20,9 +22,10 @@ const Contact = () => {
   
   return (
     <div className="Contact">
-<Container> 
-<h2 className="mb-3">Send A Message</h2>
-    <Form onSubmit={onSubmit}>
+{/* <Container className='contactForm'> 
+<h2 className="contactmeTitle">Contact Me</h2>
+    <Form className="forms" onSubmit={onSubmit}>
+
       <div className="mb-3">
         <label className="form-label" htmlFor="name">
           Name
@@ -46,7 +49,26 @@ const Contact = () => {
       {formStatus}
       </button>
     </Form>
-</Container>
+</Container> */}
+<div className='backgroundImage'> 
+<div className="form-style-8">
+
+
+  <h2>Contact Me</h2>
+  <Form onSubmit={onSubmit}>
+    <input type="text" name="field1" placeholder="Full Name" />
+    <input type="email" name="field2" placeholder="Email" />
+    <textarea placeholder="Message" onkeyup="adjust_textarea(this)"></textarea>
+    <button className="btn" type="submit">
+      {formStatus}
+      </button>
+    </Form>
+  
+
+</div>
+</div>
+ 
+
     </div>
   );
 }
