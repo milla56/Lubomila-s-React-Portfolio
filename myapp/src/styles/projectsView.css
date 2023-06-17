@@ -1,0 +1,67 @@
+:root {
+  --text: #DCCAE9;
+  --softpurple: #A6A9C8;
+  --text2: #D3D9E9;
+  --dark: #31293F;
+  --dark2: #272932;
+  --dark3: #18191f;
+  --middletone: #554D74;
+  --button: #FFB6C1;
+  --hotpink: 	#FF69B4;
+  --pastel: #F8C8DC;
+  --lightpink: #faf5f8;
+}
+
+
+.project {
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--dark3);
+}
+
+.project h1 {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  color: var(--button);
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.project img {
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+}
+
+.project p {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-size: 20px;
+  color: var(--text2);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.icons{
+  flex-direction: row;
+ 
+}
+
+.project svg {
+  font-size: 30px;
+  color: var(--pastel);
+  margin-right: 10px;
+  
+}
+
+.project svg :hover{
+  color: var(--hotpink);
+}
+
+.bckImage{
+  width: 300px;
+  height: 300px;
+  align-items: center;
+}

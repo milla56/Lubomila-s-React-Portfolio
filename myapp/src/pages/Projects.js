@@ -3,6 +3,8 @@ import ProjectCard from "../components/ProjectCard";
 import "../styles/projects.css"
 import {ProjectObjects} from "../components/ProjectObjects"
 
+import "../styles/projects.css";
+
 
 const Projects = () => {
   return (
