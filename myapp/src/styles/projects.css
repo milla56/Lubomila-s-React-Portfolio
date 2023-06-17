@@ -29,6 +29,14 @@
   font-weight: bolder;
 }
 
+.mainTitle{
+  margin-top: 45px;
+  margin-bottom: 30px;
+  font-size: 35px;
+  color: var(--text2);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .projectList {
   width: 70vw;
   height: auto;

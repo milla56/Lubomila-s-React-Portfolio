@@ -9,7 +9,7 @@ import "../styles/projects.css";
 const Projects = () => {
   return (
     <div className="projects">
-      <h1> My Personal Projects !</h1>
+      <h1 className='mainTitle'> Explore My Projects </h1>
       <div className='projectList'>
         {ProjectObjects.map ((project, idx) => {
           return <ProjectCard 
