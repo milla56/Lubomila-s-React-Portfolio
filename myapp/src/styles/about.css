@@ -15,26 +15,26 @@
 .img-fluid{
   width: 200px;
   border-radius: 50%;
-  border-right: 4px solid var(--dark2);
+  border-right: 4px solid var(--button);
 }
 
 /* TEXT */
 .aboutme h1{
-  color: var(--dark);
+  color: white;
   margin-top: 30px;
   margin-bottom: 20px;
 }
 p{
   text-align: left;
   font-size: 18px;
-  color: var(--dark);
+  color: white;
   margin-bottom: 15px;
 }
 
 .knowMe{
   text-align: left;
   margin-bottom: 25px;
-  color: var(--dark);
+  color: white;
   border-bottom: 1px solid var(--button);
 } 
 
@@ -49,7 +49,7 @@ p{
 
 .resumeIcon svg:hover{
   transform: scale(1.5); 
-  color: var(--dark);
+  color: var(--pastel);
 }
 
 .knowMe{
@@ -59,10 +59,11 @@ p{
 
 
 .info{
-  background-color: var(--lightpink);
+  background-color: var(--dark2);
   border-bottom: 2px solid var(--button);
   height: 100%;
   width: 100%;
+  border-radius: 2%;
 
 }
 
