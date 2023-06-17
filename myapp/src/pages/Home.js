@@ -20,8 +20,16 @@ const Home = () => {
 			  className='mylogo'
             />ila</div>
 		
-    <h2>Front End Web Developer</h2>
-    {/* <h3>Welcome To My Portfolio ! </h3> */}
+    {/* <h2>Front End Web Developer</h2> */}
+
+	<div className="containerHome">
+  <div className="row">
+    <div className="col-md-12 text-center">
+      <h3 className="animate-charcter"> Front End Web Developer</h3>
+    </div>
+  </div>
+</div>
+
     <div className="homepaSocials">
 					
 							<a
