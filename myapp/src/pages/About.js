@@ -14,11 +14,13 @@ import js from '../images/js.png'
 import git from '../images/git.png'
 import adobe from '../images/adobe.png'
 import react from '../images/react.png'
+import node from '../images/node.png'
 
 
 const About = () => {
   return (
     <div className='aboutme'>
+      <div className='background'>
     <h1>About Me</h1>
     <Container className='info'> 
     <div className="row align-items-center" id="pannel">
@@ -44,11 +46,13 @@ const About = () => {
 
           </div>
         </div>
+        
       </div>
       </Container>
 
 
   <h2 className='skills-title'> My Skills</h2>
+   
   <img 
     className = "html"
     src={html} 
@@ -69,6 +73,11 @@ const About = () => {
     src={react} 
     alt="react,icon" />
 
+<img 
+    className = "node"
+    src={node} 
+    alt="node,icon" />
+
   <img 
     className = "bootstrap"
     src={bootstrap} 
@@ -83,8 +92,9 @@ const About = () => {
     className = "adobe"
     src={adobe} 
     alt="adobe,icon" />
+  
   </div>
- 
+  </div>
   );
 }
 

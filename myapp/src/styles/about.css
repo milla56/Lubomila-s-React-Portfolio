@@ -10,9 +10,14 @@
   --hotpink: 	#FF69B4;
   --pastel: #F8C8DC;
   --lightpink: #faf5f8;
+  --dark3: #18191f;
 }
 
+.background{
+  width: 100%;
+  background-color: var(--dark3);
 
+}
 
 .img-fluid{
   width: 200px;
@@ -22,10 +27,10 @@
 
 /* TEXT */
 .aboutme h1{
-  color: white;
-  margin-top: 30px;
-  margin-bottom: 20px;
+  color: var(--text2);
+  margin-bottom: 50px;
 }
+
 p{
   text-align: left;
   font-size: 18px;
@@ -71,11 +76,13 @@ p{
 
 /* SKILLS IMAGES */
 .skills-title{
-  color: var(--dark);
+  color: var(--text2);
   margin-top: 30px;
   margin-bottom: 35px;
   font-size: 45px;
 }
+
+
 
 .html{
   width: 50px;
@@ -84,7 +91,7 @@ p{
 }
 
 .css{
-  width: 70px;
+  width: 50px;
   margin-right: 25px;
   margin-bottom: 30px;
 }
@@ -97,6 +104,12 @@ p{
 
 .react{
   width: 50px;
+  margin-right: 25px;
+  margin-bottom: 30px;
+}
+
+.node{
+  width: 90px;
   margin-right: 25px;
   margin-bottom: 30px;
 }

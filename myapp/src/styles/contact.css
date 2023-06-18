@@ -9,12 +9,13 @@
   --button: #FFB6C1;
   --hotpink: 	#FF69B4;
   --pastel: #F8C8DC;
+  --dark3: #18191f;
 }
 
 
 .backgroundImage{
   width: 100%;
-  background-image: url(../images/bck2\ -\ Copy.jpg);
+  background-color: var(--dark3);
   background-position: center;
   background-size: cover;
   opacity: .9;

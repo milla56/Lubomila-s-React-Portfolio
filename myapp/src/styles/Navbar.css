@@ -92,6 +92,11 @@
   .navbar a {
     width: 70px;
   }
+  .navbar-brand h5{
+    font-size: 18px;
+    text-align: center;
+  }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -100,6 +105,10 @@
   }
   #close a {
     display: none;
+  }
+  .navbar-brand h5{
+    font-size: 18px;
+    text-align: center;
   }
 }
 
@@ -118,5 +127,10 @@
 
   #open .links {
     flex-direction: row;
+  }
+
+  .navbar-brand h5{
+    font-size: 20px;
+    text-align: center;
   }
 }
