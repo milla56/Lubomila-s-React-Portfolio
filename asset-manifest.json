@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Lubomila-s-React-Portfolio/static/css/main.c6f41361.css",
-    "main.js": "/Lubomila-s-React-Portfolio/static/js/main.ae8e8c9d.js",
+    "main.css": "/Lubomila-s-React-Portfolio/static/css/main.6113e5b3.css",
+    "main.js": "/Lubomila-s-React-Portfolio/static/js/main.539bda80.js",
     "static/js/787.d3befce1.chunk.js": "/Lubomila-s-React-Portfolio/static/js/787.d3befce1.chunk.js",
     "static/media/bck7 - Copy.png": "/Lubomila-s-React-Portfolio/static/media/bck7 - Copy.6986ff44fbffa17d26a5.png",
     "static/media/react.png": "/Lubomila-s-React-Portfolio/static/media/react.8a6fc0a24a800d1e0f4a.png",
@@ -18,12 +18,12 @@
     "static/media/bootstrap.png": "/Lubomila-s-React-Portfolio/static/media/bootstrap.268c4375260420e8d982.png",
     "static/media/adobe.png": "/Lubomila-s-React-Portfolio/static/media/adobe.8b792fff279213175a6a.png",
     "index.html": "/Lubomila-s-React-Portfolio/index.html",
-    "main.c6f41361.css.map": "/Lubomila-s-React-Portfolio/static/css/main.c6f41361.css.map",
-    "main.ae8e8c9d.js.map": "/Lubomila-s-React-Portfolio/static/js/main.ae8e8c9d.js.map",
+    "main.6113e5b3.css.map": "/Lubomila-s-React-Portfolio/static/css/main.6113e5b3.css.map",
+    "main.539bda80.js.map": "/Lubomila-s-React-Portfolio/static/js/main.539bda80.js.map",
     "787.d3befce1.chunk.js.map": "/Lubomila-s-React-Portfolio/static/js/787.d3befce1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6f41361.css",
-    "static/js/main.ae8e8c9d.js"
+    "static/css/main.6113e5b3.css",
+    "static/js/main.539bda80.js"
   ]
 }
