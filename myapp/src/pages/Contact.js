@@ -1,5 +1,5 @@
-import React from 'react';
-import Container from 'react-bootstrap/Container';
+// import React from 'react';
+import React, { useState, useEffect } from "react";
 import Form from 'react-bootstrap/Form';
 
 import "../styles/contact.css"
@@ -12,6 +12,7 @@ const Contact = () => {
   // const [fullName, setFullName] = useState('');
   // const [email, setEmail] = useState('');
   // const [message, setMessage] = useState('');
+
 
   const onSubmit = (e) => {
     e.preventDefault()
@@ -34,9 +35,10 @@ const Contact = () => {
 
   <h2>Contact Me</h2>
   <Form onSubmit={onSubmit}>
+
     <input type="text" name="field1" placeholder="Full Name" />
     <input type="email" name="field2" placeholder="Email" />
-    <textarea placeholder="Message" onkeyup="adjust_textarea(this)"></textarea>
+    <textarea placeholder="Message" ></textarea>
     <button className="btn" type="submit">
       {formStatus}
       </button>
@@ -45,9 +47,7 @@ const Contact = () => {
 
 </div>
 </div>
- 
-
-    </div>
+</div>
   );
 }
 
