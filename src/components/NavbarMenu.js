@@ -13,10 +13,7 @@ const NavbarMenu = () => {
   return (
 	<Navbar id={exandNavbarMenu ? "open" : "close"}>
 	<Container>
-	  <Navbar.Brand> <h5> Mila's Portfolio</h5> </Navbar.Brand>
 	 
-	
-
 		{/* // Burger Menu  */}
 	<div className='toggleButton'>
 		<button 

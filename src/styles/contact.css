@@ -95,3 +95,12 @@
 	background:linear-gradient(to bottom, var(--pastel) 5%, var(--button) 100%);
 	
 }
+
+
+/* media query */
+@media only screen and (max-width: 600px) {
+	.form-style-8{
+		width: 400px;
+	}
+  
+  }

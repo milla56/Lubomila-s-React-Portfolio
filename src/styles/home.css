@@ -72,6 +72,8 @@
   color: var(--hotpink);
 }
 
+
+
 /* media query */
 
 @media only screen and (max-width: 600px) {
@@ -80,11 +82,16 @@
   }
 
 .mylogo{
-  width: 60px;
+  width: 50px;
 }
 
 .title{
-  font-size: 60px;
+  font-size: 30px;
+}
+
+.containerHome h3{
+  display: inline-block;
+  font-size: 30px;
 }
 
 }

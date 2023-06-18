@@ -17,13 +17,6 @@
   background: var(--dark2);
 }
 
-.navbar-brand h5{
-  font-size: 20px;
-  text-align: left;
-  color: var(--pastel);
-  margin-left: -60%;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
 
 .links {
   width: 100%;
@@ -90,12 +83,9 @@
 
 @media only screen and (max-width: 900px) {
   .navbar a {
-    width: 70px;
+    width: 50px;
   }
-  .navbar-brand h5{
-    font-size: 18px;
-    text-align: center;
-  }
+
 
 }
 
@@ -106,10 +96,7 @@
   #close a {
     display: none;
   }
-  .navbar-brand h5{
-    font-size: 18px;
-    text-align: center;
-  }
+
 }
 
 @media only screen and (min-width: 600px) {
@@ -129,8 +116,5 @@
     flex-direction: row;
   }
 
-  .navbar-brand h5{
-    font-size: 20px;
-    text-align: center;
-  }
+
 }
