@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from "react";
 import { BrowserRouter as Router, Routes,Route } from "react-router-dom";
 import './App.css';
 
@@ -11,9 +11,10 @@ import Footer from './components/Footer'
 import ProjectView from './components/ProjectView'
 
 function App() {
+  
   return (
     <div className="App">
-      <Router>
+      <Router  basename={process.env.PUBLIC_URL}>
         <NavbarMenu />
         <Routes>
       <Route path="/" element={<Home />} />

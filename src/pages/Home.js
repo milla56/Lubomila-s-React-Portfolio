@@ -12,15 +12,16 @@ const Home = () => {
   return (
     <div className = "home">
 		<div className='jumbotron'> 
-		<h1>Hello, My Name Is </h1>
+
+		<h1>Welcome To My Portfolio</h1>
+
 		
-		<div className='title'><img
+		<div className='title'>Hello, My Name Is <img
               src={newlogo}
               alt="logo"
 			  className='mylogo'
             />ila</div>
 		
-    {/* <h2>Front End Web Developer</h2> */}
 
 	<div className="containerHome">
   <div className="row">
