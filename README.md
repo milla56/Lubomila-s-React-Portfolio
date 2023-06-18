@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# Lubomila-s-React-Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ ## Table Of Contents
+  - [Description](#description)
+  - [Installation](#installation)
+  - [User-Story](#user-story)
+  - [Usage](#usage)
+  - [Demo](#demo)
+  - [Technologies-Used](#technologies-used)
+  - [Credits](#credits)
+  - [License](#license)
 
-## Available Scripts
+--- 
 
-In the project directory, you can run:
+## Description
+"Lubomila's React Portfolio" is an initial scaffolding of my portfolio website, build from scratch using React. The aim of the app is to show potential employers my skills and projects.
 
-### `npm start`
+--- 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Clone the GitHub repository to your computer.
+- Navigate to your terminal and use the following command "npm install create-react-app".
+- Navigate to your terminal and use the following command "npm start".
 
-### `npm test`
+ 
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## User Story 
+- AS A User I would like to have a Portfolio Website using React Js
+- The portfolio must have "Home", "About Me", "Projects" and "Contact Me" pages.
+- As a user I would like to showcase my recent work and experience.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
+The list shows what steps were made to complete the challenge:
+- The portfolio contains these components - App, Navigation bar, Home page, About me page, Projects page and Contact page.
+- I used mobile-first design.
+- The app has links to my LinkedIn Profile, GitHub Profile, email address, CV and 6 projects(links to deployed website and GitHub repo).
+- The App has all components and render all necessary child components.
+- The Header is rendering across every page component of the site and contains a Navbar.
+- The Navbar is using "burger menu" when the page size is shrinked.
+- The Project page has 6 projects , which contain - project title, link to deployed website, GitHub repo and images.
+- "About Me" page has my personal picture, my brand statement, button, which leads to my CV and "Skills" section including the technical skills that I have.
+- "Contact Me" page has a form , where a user can type their names,emails and messages. The form is not yet functional. 
+- User interface style is clean and polished.
+- User experience is intuitive and easy to navigate.
+- Application uses a color scheme other than the default Bootstrap color palette.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Demo
+![Demo]();
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Technologies Used
+- JavaScript
+- React Js
+- React Router
+- Material Icons - Material UI - MUI
+- Bootstrap
+- Font Awesome
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## Credits
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+N/A
+---
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## License
 
-### Advanced Configuration
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+milla56/Lubomila-s-React-Portfolio is licensed under the
+MIT License
+A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
