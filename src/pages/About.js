@@ -39,7 +39,7 @@ const About = () => {
                 and infrastructure 
                 to maintain a cohesive website consistent with clients needs.</p>
 
-                <a className='resumeIcon'  target="_blank" href="https://drive.google.com/file/d/1l0RkUhPcVB8AvKVrX1WvXJbMnW_dMiqV/view?usp=sharing">
+                <a className='resumeIcon' href="https://drive.google.com/file/d/1MXrJRIiec00bD9rxpSy-JY8Vc9E_iYyO/view?usp=sharing">
 			             <CloudDownloadIcon />
 		                 	</a>
   
