@@ -19,6 +19,9 @@
 --- 
 
 ## Installation
+ 
+- Link to deployed website: https://milla56.github.io/Lubomila-s-React-Portfolio/ 
+--- 
 
 - Clone the GitHub repository to your computer.
 - Navigate to your terminal and use the following command "npm install create-react-app".
