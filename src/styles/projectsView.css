@@ -34,14 +34,14 @@
   width: 350px;
   border-radius: 10px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+  margin-bottom: 40px;
 }
 
-.project p {
-  margin-top: 30px;
+.project h3 {
   margin-bottom: 25px;
-  font-size: 20px;
+  font-size: 16px;
   color: var(--text2);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .icons{
@@ -53,6 +53,7 @@
   font-size: 30px;
   color: var(--pastel);
   margin-right: 10px;
+  margin-bottom: 20px;
   
 }
 
