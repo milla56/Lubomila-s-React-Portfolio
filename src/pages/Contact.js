@@ -1,6 +1,9 @@
 // import React from 'react';
 import React, { useState, useEffect } from "react";
 import Form from 'react-bootstrap/Form';
+import { Container } from 'react-bootstrap';
+import {Row} from 'react-bootstrap';
+import {Col} from 'react-bootstrap';
 
 import "../styles/contact.css"
 
@@ -35,6 +38,19 @@ setFormData({...formData,[name]: value })
   return (
     <div className="Contact">
 <div className='backgroundImage'> 
+<Container> 
+  <Row> 
+  <Col md={6}> 
+  <h1 className="contact-title">Let's Get in Touch</h1>
+  <h2 className="contact-info"> Thank you for your interest in getting in touch with me. I welcome your feedback, questions, 
+    and suggestions. If you have a 
+    specific question or comment, please feel free to email me directly at </h2>
+    <h3 className="email-info">lubomila14@gmail.com</h3>
+    </Col> 
+
+
+
+  <Col md={6}> 
 <div className="form-style-8">
 
 
@@ -51,6 +67,9 @@ setFormData({...formData,[name]: value })
   
 
 </div>
+</Col>
+</Row>
+</Container>
 </div>
 </div>
   );

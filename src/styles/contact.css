@@ -15,7 +15,7 @@
 
 .backgroundImage{
   width: 100%;
-  background-color: var(--dark3);
+  background-image: url(../images/bck1.png);
   background-position: center;
   background-size: cover;
   opacity: .9;
@@ -25,6 +25,28 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+/* TEXT */
+.contact-title{
+	font-size: 65px;
+	color: var(--text2);
+	text-align: left;
+	margin-top: 65px;
+}
+
+.contact-info{
+	font-size: 18px;
+	color: var(--text2);
+	text-align: left;
+	margin-top: 55px;
+}
+
+.email-info{
+	font-size: 22px;
+	color: var(--pastel);
+	text-align: left;
+	margin-top: 35px;
 }
 
 
@@ -79,6 +101,7 @@
 	overflow: hidden;
 }
 
+/* BUTTON */
 
 .btn{
 	background-color: var(--button);
