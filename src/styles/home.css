@@ -20,10 +20,10 @@
 
 .jumbotron{
   width: 100%;
-  background-image: url(../images/bck7\ -\ Copy.png);
+  background-image: url(../images/bck1.png);
   background-position: center;
   background-size: cover;
-  opacity: .9;
+  /* opacity: .9; */
   height: calc(100vh - 150px);
   display: flex;
   flex-direction: column;
@@ -32,38 +32,93 @@
   text-align: center;
 }
 
-.title {
-  font-size: 40px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  text-align: center;
-  color: var(--pastel);
-  
- 
-}
-
-.mylogo{
-  width: 50px;
+.me-portrait{
+  width: 400px;
   margin-bottom: 30px;
-  margin-right: 5px;
- 
 
 }
 
+/* TEXT */
+
+.jumbotron h2{
+  color: var(--text2);
+   font-size: 20px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin-top: 15%;
+   display: flex;
+   flex-direction: row;
+  }
 
 .jumbotron h1{
- color: var(--text2);
-  font-size: 30px;
+ color: var(--hotpink);
+  font-size: 65px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  margin-bottom: 25px;
-  margin-top: -6%;
+  margin-bottom: 30px;
+  margin-top: 15px;
   display: flex;
   flex-direction: row;
  }
 
+ .jobTitle1{
+  text-align: left;
+  font-size: 24px;
+ }
+
+ .jobTitle2{
+  text-align: left;
+  font-size: 24px;
+ }
+
+ .jobTitle3{
+  text-align: left;
+  font-size: 24px;
+ }
+
+ /* ABOUT ME BUTTON */
+
+ .aboutPage{
+  margin-top: 45px;
+
+ }
+
+p.aboutPage a {
+  text-decoration: none;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #554D74 0%,
+    #FFB6C1 29%,
+    #DCCAE9 67%,
+    #F8C8DC 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 20px;
+ }
+ @keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+
+ /* SOCIAL MEDIA ICONS */
+ 
+.homepaSocials{
+ margin-left: -75%;
+}
 
 .homepage-social-icon{
-  margin-top: 30px;
-  font-size: 35px;
+  margin-top: 15px;
+  font-size: 30px;
   margin-right: 18px;
   color: var(--softpurple);
 }
@@ -97,33 +152,3 @@
 }
 
 
-/* TITLE ANIMATION */
-
-.animate-charcter
-{
-  margin-top: 30px;
-   text-transform: uppercase;
-  background-image: linear-gradient(
-    -225deg,
-    #554D74 0%,
-    #31293F 29%,
-    #DCCAE9 67%,
-    #F8C8DC 100%
-  );
-  background-size: auto auto;
-  background-clip: border-box;
-  background-size: 200% auto;
-  color: #fff;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: textclip 2s linear infinite;
-  display: inline-block;
-      font-size: 45px;
-}
-
-@keyframes textclip {
-  to {
-    background-position: 200% center;
-  }
-}

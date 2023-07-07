@@ -1,7 +1,11 @@
 import React from 'react';
 import "../styles/home.css";
+import { Container } from 'react-bootstrap';
+import {Row} from 'react-bootstrap';
+import {Col} from 'react-bootstrap';
+import { Link } from "react-router-dom";
 
-import newlogo from "../images/newlogo.png"
+import photo from "../images/myphoto.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faBehance } from '@fortawesome/free-brands-svg-icons';
@@ -12,26 +16,27 @@ const Home = () => {
   return (
     <div className = "home">
 		<div className='jumbotron'> 
+		<Container> 
+			<Row>
+				<Col md={6}> 
+				<img
+              src={photo}
+              alt="portrait"
+			  className='me-portrait'
+            />
+				</Col>
 
-		<h1>Welcome To My Portfolio</h1>
+				<Col md={6}> 
+				<h2>Hello, I am</h2>
+				<h1>Mila Lozanova</h1>
+				<h3 className="jobTitle1"> Front End Web Developer</h3>
+				<h3 className="jobTitle2"> UI / UX Designer</h3>
+				<h3 className="jobTitle3"> Graphic Designer </h3>
 
-		
-		<div className='title'>Hello, My Name Is <img
-              src={newlogo}
-              alt="logo"
-			  className='mylogo'
-            />ila</div>
-		
+				<p className='aboutPage'><Link to="about">Learn More About Me </Link> </p> 
+				
 
-	<div className="containerHome">
-  <div className="row">
-    <div className="col-md-12 text-center">
-      <h3 className="animate-charcter"> Front End Web Developer</h3>
-    </div>
-  </div>
-</div>
-
-    <div className="homepaSocials">
+				<div className="homepaSocials">
 					
 							<a
 								href="https://github.com/milla56"
@@ -64,9 +69,17 @@ const Home = () => {
 							</a>
 						
 						</div>
+   
+				</Col>
+			</Row>
+		</Container>
+
 						</div>
   </div>
   );
 }
 
 export default Home;
+
+
+{/* <h3 className="animate-charcter"> Graphic Designer </h3> */}

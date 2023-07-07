@@ -6,7 +6,7 @@ import { Container} from "react-bootstrap";
 import CloudDownloadIcon from '@mui/icons-material/CloudDownload';
 
 // Images
-import myphoto from '../images/myphoto.jpg'
+import web from '../images/web.png'
 import bootstrap from '../images/bootstrap.png'
 import css from '../images/css.png'
 import html from '../images/html.png'
@@ -21,20 +21,20 @@ const About = () => {
   return (
     <div className='aboutme'>
       <div className='background'>
-    <h1>About Me</h1>
+    <h1 className='aboutme-title'>About Me</h1>
     <Container className='info'> 
     <div className="row align-items-center" id="pannel">
         <div className="col-lg-5 order-lg-2">
           <div className="p-5">
-            <img className='img-fluid' src={myphoto} alt="self portrait"/>
+            <img className='img-fluid' src={web} alt="computer"/>
           </div>
         </div>
         <div className="col-lg-7 order-lg-1">
           <div className="p-5">
             <h3 className="knowMe">Get To Know Me</h3>
-            <p>Hello, my name is Mila ! I am a Front End Web Developer experienced in managing multiple websites 
-                and web application design projects. 
-                Proficient at developing creative and functional designs, web page layout, 
+            <p> I am a Front End Web Developer, UI & UX Designer and Graphic Designer.</p> 
+            <p> I am based in Coventry,England. </p>
+            <p>I am experienced in developing creative and functional designs, web page layout, 
                 creating user interfaces, writing and testing codes, 
                 and infrastructure 
                 to maintain a cohesive website consistent with clients needs.</p>

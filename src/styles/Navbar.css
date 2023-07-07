@@ -17,6 +17,23 @@
   background: var(--dark2);
 }
 
+/* NAVBAR BRAND */
+.navbar-brand {
+  
+  padding-right: 40px;
+}
+
+#title {
+  font-size: 20px;
+  color:white;
+ margin-left: 20px;
+}
+
+.logo{
+  width: 40px;
+}
+
+/* LINKS */
 
 .links {
   width: 100%;
@@ -43,7 +60,7 @@
   color: var(--hotpink);
 }
 
-
+/* BURGER MENU */
 
 .toggleButton {
   width: 100%;
@@ -65,14 +82,15 @@
   cursor: pointer;
 }
 
+/* OPEN LINKS */
 #open {
-  height: 100vh;
+  height: 300px;
 }
 
 #open .links{
   flex-direction: column;
   justify-content: flex-start;
-  margin-top: 100px;
+  margin-top: 30px;
 }
 
 #open a {
@@ -85,11 +103,13 @@
   .navbar a {
     width: 50px;
   }
-
-
+ 
 }
 
 @media only screen and (max-width: 600px) {
+  .navbar-brand{
+    margin-right: 30px;
+  }
   .toggleButton {
     display: flex;
   }

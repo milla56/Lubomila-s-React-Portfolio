@@ -20,15 +20,16 @@
 }
 
 .img-fluid{
-  width: 200px;
-  border-radius: 50%;
-  border-right: 4px solid var(--button);
+  width: 250px;
+ 
 }
 
 /* TEXT */
-.aboutme h1{
+.aboutme-title{
+  margin-bottom: 30px;
+  font-size: 35px;
   color: var(--text2);
-  margin-bottom: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 p{
