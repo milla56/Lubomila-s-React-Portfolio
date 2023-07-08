@@ -15,7 +15,7 @@ const NavbarMenu = () => {
 	<Navbar id={exandNavbarMenu ? "open" : "close"}>
 	<Container>
 
-	<Navbar.Brand href="/"> 
+	<Navbar.Brand> 
           <img 
             src={logo}
             alt="logo"

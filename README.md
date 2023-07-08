@@ -66,12 +66,12 @@ The list shows what steps were made to complete the challenge:
 
 
 ## Demo
-![Demo](./src/images/demo.gif);
+![Demo](./src/images/demo-screen.gif);
 
 ---
 
 ## Mobile Demo
-![Demo](./src/images/mobile.gif);
+![Demo](./src/images/demo-phone.gif);
 
 ---
 

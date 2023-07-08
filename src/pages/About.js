@@ -8,15 +8,7 @@ import {Col} from "react-bootstrap";
 import CloudDownloadIcon from '@mui/icons-material/CloudDownload';
 
 // Images
-import web from '../images/web.png'
-import bootstrap from '../images/bootstrap.png'
-import css from '../images/css.png'
-import html from '../images/html.png'
-import js from '../images/js.png'
-import git from '../images/git.png'
-import adobe from '../images/adobe.png'
-import react from '../images/react.png'
-import node from '../images/node.png'
+import web from '../images/web.png';
 
 
 const About = () => {

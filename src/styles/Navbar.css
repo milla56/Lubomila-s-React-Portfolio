@@ -99,17 +99,9 @@
 }
 
 
-@media only screen and (max-width: 900px) {
-  .navbar a {
-    width: 50px;
-  }
- 
-}
 
 @media only screen and (max-width: 600px) {
-  .navbar-brand{
-    margin-right: 30px;
-  }
+
   .toggleButton {
     display: flex;
   }
@@ -135,6 +127,7 @@
   #open .links {
     flex-direction: row;
   }
+
 
 
 }
