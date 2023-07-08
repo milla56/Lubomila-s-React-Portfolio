@@ -2,6 +2,8 @@ import React from 'react';
 import "../styles/about.css"
 
 import { Container} from "react-bootstrap";
+import {Row} from "react-bootstrap";
+import {Col} from "react-bootstrap";
 
 import CloudDownloadIcon from '@mui/icons-material/CloudDownload';
 
@@ -49,50 +51,81 @@ const About = () => {
         
       </div>
       </Container>
+      
 
+{/* SKILLS SECTION */}
 
   <h2 className='skills-title'> My Skills</h2>
    
-  <img 
-    className = "html"
-    src={html} 
-    alt="html,icon" />
+ 
+    {/* CARD 1 */}
+    <Row className="card-containers"> 
+    <Col size="lg-4"> 
+    <div className="myCard">
+        <div className="innerCard">
+            <div className="frontSide">
+                <p className="title">Technical Skills</p>
+            </div>
+            <div className="backSide">
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>JavaScript</p>
+                <p>React Js</p>
+                <p>Node Js</p>
+                <p>jQuery</p>
+                <p>Bootstrap</p>
+                <p>APIs</p>
+                <p>Responsive Design</p>
+                <p>Testing and Debugging</p>
+            </div>
+        </div>
+    </div>
+    </Col>
 
-   <img 
-    className = "css"
-    src={css} 
-    alt="css,icon" />
+{/* CARD 2 */}
+<Col size="lg-4"> 
+<div className="myCard">
+        <div className="innerCard">
+            <div className="frontSide">
+                <p className="title">Soft Skills</p>
+            </div>
+            <div className="backSide">
+                <p>Creativity</p>
+                <p>Teamwork</p>
+                <p>Problem-Solving</p>
+                <p>Critical Thinking</p>
+                <p>Attention To Details</p>
+                <p>Time and Project Management</p>
+                <p>Communication</p>
+            </div>
+        </div>
+    </div>
+    </Col>
 
-  <img 
-    className = "javascript"
-    src={js} 
-    alt="javascript,icon" />
+    {/* CARD 3 */}
+<Col size="lg-4"> 
+<div className="myCard">
+        <div className="innerCard">
+            <div className="frontSide">
+                <p className="title">Design Skills</p>
+            </div>
+            <div className="backSide">
+                <p>Adobe Creative Cloud</p>
+                <p>Color Theory</p>
+                <p>UX Design</p>
+                <p>UI Design</p>
+                <p>Figma</p>
+                <p>Typography</p>
+                <p>Illustration</p>
+            </div>
+        </div>
+    </div>
+    </Col>
 
-    <img 
-    className = "react"
-    src={react} 
-    alt="react,icon" />
 
-<img 
-    className = "node"
-    src={node} 
-    alt="node,icon" />
 
-  <img 
-    className = "bootstrap"
-    src={bootstrap} 
-    alt="bootstrap,icon" />
+    </Row>
 
-  <img 
-    className = "git"
-    src={git} 
-    alt="git,icon" /> 
-
-   <img 
-    className = "adobe"
-    src={adobe} 
-    alt="adobe,icon" />
-  
   </div>
   </div>
   );

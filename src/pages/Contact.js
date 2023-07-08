@@ -42,9 +42,9 @@ setFormData({...formData,[name]: value })
   <Row> 
   <Col md={6}> 
   <h1 className="contact-title">Let's Get in Touch</h1>
-  <h2 className="contact-info"> Thank you for your interest in getting in touch with me. I welcome your feedback, questions, 
-    and suggestions. If you have a 
-    specific question or comment, please feel free to email me directly at </h2>
+  <h2 className="contact-info"> Thank you for your interest !
+  Feel free to reach out to me using the form below, I'd love to hear from you! If you have a 
+    specific question or comment, please feel free to email me directly at: </h2>
     <h3 className="email-info">lubomila14@gmail.com</h3>
     </Col> 
 
