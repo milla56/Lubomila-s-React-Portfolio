@@ -138,3 +138,36 @@
 
 
 }
+
+ /* ==============MEDIA QUERY 768================ */
+ @media (max-width: 768px){
+  .navbar{
+  height: 120px;
+  }
+
+  .links{
+    margin-top: 95px;
+    margin-left: -80%;
+  }
+
+  #title {
+    font-size: 20px;
+   margin-left: 10px;
+  }
+  
+  .logo{
+    width: 40px;
+    margin-left: -40px;
+    margin-top: -20px;
+  }
+
+
+
+ }
+
+ /* ==============MEDIA QUERY 992================ */
+ @media (max-width: 992px){
+  .links{
+    margin-left: 30%;
+  }
+ }

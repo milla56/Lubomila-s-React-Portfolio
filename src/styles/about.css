@@ -192,3 +192,30 @@ margin-bottom: 50px;
     opacity: 0.3;
   }
 }
+
+
+/* ==============MEDIA QUERY 576================ */
+@media (max-width: 576px) { 
+  .info{
+    height: 80%;
+    width: 60%;
+}
+
+  }
+  
+  /* ==============MEDIA QUERY 768================ */
+  @media (max-width: 768px) { 
+    .myCard{
+      margin-left: 15px;
+    }
+  
+  }
+
+/* ==============MEDIA QUERY 992================ */
+  @media (max-width: 992px){
+    .myCard{
+margin-left: 2px;
+    }
+
+
+  }

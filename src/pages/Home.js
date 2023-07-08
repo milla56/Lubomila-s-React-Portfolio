@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <div className = "home">
 		<div className='jumbotron'> 
-		<Container> 
+		<Container className='home-container'> 
 			<Row>
 				<Col md={6}> 
 				<img

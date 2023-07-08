@@ -66,3 +66,24 @@
   height: 300px;
   align-items: center;
 }
+
+/* ==============MEDIA QUERY================ */
+
+@media (max-width: 576px){
+  .project svg{
+    margin-bottom: 50px;
+  }
+
+}
+
+@media (max-width: 768px){
+  .project svg{
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 992px){
+  .project svg{
+    margin-bottom: 50px;
+  }
+}

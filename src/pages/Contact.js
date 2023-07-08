@@ -38,7 +38,7 @@ setFormData({...formData,[name]: value })
   return (
     <div className="Contact">
 <div className='backgroundImage'> 
-<Container> 
+<Container className="contact-container"> 
   <Row> 
   <Col md={6}> 
   <h1 className="contact-title">Let's Get in Touch</h1>
