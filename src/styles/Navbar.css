@@ -84,13 +84,13 @@
 
 /* OPEN LINKS */
 #open {
-  height: 300px;
+  height: 100vh;
 }
 
 #open .links{
   flex-direction: column;
   justify-content: flex-start;
-  margin-top: 30px;
+  margin-top: 100px;
 }
 
 #open a {
@@ -104,10 +104,17 @@
 
   .toggleButton {
     display: flex;
+    margin-left: 5%;
+    
   }
   #close a {
     display: none;
   }
+
+  .navbar-brand{
+    margin-left: 10%;
+  }
+
 
 }
 
@@ -127,6 +134,7 @@
   #open .links {
     flex-direction: row;
   }
+ 
 
 
 
@@ -139,8 +147,7 @@
   }
 
   .links{
-    margin-top: 95px;
-    margin-left: -80%;
+   margin-right: 100%;
   }
 
   #title {
@@ -161,6 +168,6 @@
  /* ==============MEDIA QUERY 992================ */
  @media (max-width: 992px){
   .links{
-    margin-left: 30%;
+    margin-left: 10%;
   }
  }

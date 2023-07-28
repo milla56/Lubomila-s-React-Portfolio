@@ -21,7 +21,7 @@ const NavbarMenu = () => {
             alt="logo"
             className='logo'>
           </img> 
-          <span id="title">Mila's Portfolio</span>
+          <span id="title"><Link to="/">Mila's Portfolio</Link></span>
           </Navbar.Brand>
 	 
 		{/* // Burger Menu  */}

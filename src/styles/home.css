@@ -16,6 +16,7 @@
   align-items: center;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: var(--text2);
+
 }
 
 .jumbotron{
@@ -23,8 +24,7 @@
   background-image: url(../images/bck1.png);
   background-position: center;
   background-size: cover;
-  /* opacity: .9; */
-  height: calc(100vh - 150px);
+  /* height: calc(100vh - 150px); */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -133,11 +133,11 @@ p.aboutPage a {
 @media (max-width: 576px) { 
   .jumbotron{
   width: 100%;
-  height: 50%;
+  height: 150%;
   }
 
   .me-portrait{
-    width: 250px;
+    width: 150px;
 
 }
 
@@ -179,7 +179,7 @@ p.aboutPage a {
   @media (max-width: 768px) { 
     .jumbotron{
       width: 100%;
-      height: 50%;
+      /* height: 250%; */
       }
     
       .me-portrait{
@@ -227,6 +227,10 @@ p.aboutPage a {
       width: 320px;
   }
 
+  /* .jumbotron{
+      height: calc(94vh - 150px);
+    } */
+
   .jumbotron h2{
     margin-top: 10%;
    }
@@ -254,6 +258,10 @@ p.aboutPage a {
  
   .aboutPage{
    margin-top: 40px;
+ }
+
+ .homepaSocials{
+  text-align: center;
  }
 
 
